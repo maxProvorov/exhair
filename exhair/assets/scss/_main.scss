@@ -1,0 +1,108 @@
+.main{
+    //height: 100vh;
+    height: 900px;
+     .main__left-side{
+            width: 710px;
+        }
+    .main__right-side{
+        width: 854px;
+    }
+    .section__wrap{
+        height: 100%;
+    }
+    
+    .left-side__left{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 157px 70px 0 40px;
+        float:left;
+        height: 665px;
+        .insta{
+            display: flex;
+            flex-direction: column;
+            .insta__text{
+                font-size: 24px;
+                line-height: 53px;
+                display: flex;
+                flex-direction: column;
+                margin-top: 47px;
+            }
+            .insta__text span{
+                text-align: center;
+            }
+        }
+        .scroll {
+                text-align: center;
+            .scroll__line{  
+                height: 107px;
+                width: 1px;
+                background: #2E2E2E;
+                margin: auto;
+                margin-top: 19px;
+            }
+        }
+    }
+    .left-side__right {
+        padding-top: 152px;
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+        display: flex;
+        .b-1{
+            display: flex;
+            .b-1__line {
+                margin: auto 24px auto 0;
+                height: 1px;
+                width: 44px;
+                background: #2E2E2E;
+            }
+        
+            .b-1__text h1{
+                font-weight: 300;
+                font-size: 24px;
+                line-height: 30px;
+            }
+        }
+        .b-2{
+            margin: 65px 0;
+        }
+        .b-3{
+            font-size: 24px;
+            line-height: 30px;
+        }
+        .b-4{
+            margin-top: 50px;
+            display: flex;
+            .b-4__line {
+                margin: auto 0 auto 24px;
+                height: 1px;
+                width: 44px;
+                background: #2E2E2E;
+            }
+        }
+        .b-5{
+            font-size: 16px;
+            line-height: 20px;
+            height: 100%;
+            display: flex;
+            align-items: flex-end;
+            padding-bottom: 68px;
+        }
+        
+    }
+    .main__right-side {
+        background: #8D8B90;
+        padding-top: 170px;
+        overflow: hidden;
+        position: relative;
+        .main-img{
+            position: absolute;
+            bottom: 0;
+            right: -24px;
+            width: 719px;
+            height: 769px;
+            z-index: 99;
+        }
+    }
+}

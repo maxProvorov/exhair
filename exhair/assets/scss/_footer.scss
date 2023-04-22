@@ -1,0 +1,29 @@
+.site-footer{
+    
+    .footer__wrap{
+        align-items: center;
+        height: 131px;
+        display: flex;
+        align-items: center;
+        border-top:1px solid #2E2E2E;
+    }
+    .footer__menu{
+        margin-right: 7px;        
+        .header__lang a {
+            text-decoration: underline;
+        }
+        li {
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 20px;
+            margin-right: 40px;
+        }    
+        li:last-child {
+            margin-right: 0;
+        }
+    }
+    .cpyright{
+        font-size: 16px;
+        line-height: 20px;
+    }
+}

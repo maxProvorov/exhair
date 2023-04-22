@@ -1,0 +1,23 @@
+.form{
+    background: #EAE1D7;
+    height: 356px;
+    display: flex;
+    align-items: center;
+    .form__left{
+        width: 658px;
+        .title{
+            font-weight: 600;
+            font-size: 62px;
+            line-height: 54px;
+            margin-bottom: 24px;
+        }
+        .desc{
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+    .form__right{
+        width: 856px;
+    }
+}
