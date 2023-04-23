@@ -21,7 +21,7 @@
         <div class="contacts___right">
             <div id="map"></div>
             <script
-                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByD73ckhIumWwdW2dMYzvc3Fh_9g2atvo&callback=initMap&v=weekly"
+                src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap&v=weekly"
                 defer></script>
         </div>
     </div>
